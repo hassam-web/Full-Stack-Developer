@@ -1,0 +1,26 @@
+PHP is a server side scripting language. that is used to develop Static websites or Dynamic websites or Web applications. PHP stands for Hypertext Pre-processor, that earlier stood for Personal Home Pages.
+
+//https://www.w3schools.com/php/php_intro.asp
+
+
+https://www.apachefriends.org/download.html
+
+7.3.31 / PHP 7.3.31
+
+Start Apache or Mysql Server 
+
+xamp/htdocs/batch-2/index.php
+
+localhost = xamp/htdocs
+
+localhost/batch-2/index.php
+
+
+PHP Case Sensitivity
+
+in php is not case sensitive
+
+In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are not case-sensitive.
+
+
+variables are case sensitive

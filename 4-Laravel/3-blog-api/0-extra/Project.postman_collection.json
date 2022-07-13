@@ -1,0 +1,132 @@
+{
+	"id": "9132b6e9-d028-dac1-bc95-d3b22c89892d",
+	"name": "Blog Api Project",
+	"description": "",
+	"order": [
+		"b5232f29-926a-6cf9-6ea4-3151760d1514",
+		"eb40f949-8738-c1a5-3087-1940f2b0e5c0",
+		"040a1dc5-5842-fc6c-792b-6da0f8e37b0b",
+		"3126ba8a-4f00-55c9-ab62-7857c5d8482f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1646852191075,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "040a1dc5-5842-fc6c-792b-6da0f8e37b0b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/api/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "9132b6e9-d028-dac1-bc95-d3b22c89892d",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://127.0.0.1:8000/api/users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1646853510592,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "3126ba8a-4f00-55c9-ab62-7857c5d8482f",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/api/users/4",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "9132b6e9-d028-dac1-bc95-d3b22c89892d",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://127.0.0.1:8000/api/users/4",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1646853928712,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b5232f29-926a-6cf9-6ea4-3151760d1514",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9132b6e9-d028-dac1-bc95-d3b22c89892d",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:8000/api/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1646852203906,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n      \"password\":\"admin123@\",\r\n      \"email\":\"muzammil.rafay@gmail.com\"\r\n}"
+		},
+		{
+			"id": "eb40f949-8738-c1a5-3087-1940f2b0e5c0",
+			"headers": "Content-Type: application/json\n//Con: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Con",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9132b6e9-d028-dac1-bc95-d3b22c89892d",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:8000/api/users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1646852213024,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n      \"username\":\"muzammil\",\r\n      \"password\":\"admin123@\",\r\n      \"user_firstname\":\"muzammil\",\r\n      \"user_lastname\":\"rafay\",\r\n      \"email\":\"muzammil.rafay@gmail.com\",\r\n      \"user_role\":\"Admin\"\r\n}"
+		}
+	]
+}
